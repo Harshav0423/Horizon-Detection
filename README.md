@@ -16,7 +16,7 @@ A Image is converted into image_array of size 175rows x 225columns.
 
 **Ice_Rock:** For detecting the Ice-Rock Boundary, giving a condition starting from the Air-Ice column row, which gives a condition that it always searches for the larger value after the Air-Ice. With same condition of Air-Ice.
 
-![Image for Simple 30](https://github.iu.edu/cs-b551-fa2021/hvalivet-jagchau-sjella-a3/blob/3d07ec04b4538e40e6447d4ee3e040f3b9b5eaf8/part2/Images/Simple_ice_rock_output.png)
+![Image for Simple 30](https://github.com/Harshav0423/Horizon-Detection/blob/master/Images/Simple_air_ice_output.png)
 
 ## HMM:
 
@@ -40,7 +40,7 @@ This cycle is continued until the end of the column, which takes the overall pat
 
 **Ice_Rock:** Similar to the implementation of Air-Ice, it also uses the Air-Ice boundary for correct detection of Ice-Rock boundary, starting the row from, row of Air-Ice boundary + 10 (assumption). This gives us the boundary of Ice-Rock with some smoothening function.
 
-![Image for HMM 30](https://github.com/hvalivet-jagchau-sjella-a3/blob/3d07ec04b4538e40e6447d4ee3e040f3b9b5eaf8/Images/HMM_ice_rock_output.png)
+![Image for HMM 30](https://github.com/Harshav0423/Horizon-Detection/blob/master/Images/HMM_ice_rock_output.png)
 
 ## Human FeedBack:
 
@@ -58,6 +58,6 @@ It multiplies the value with the transition probability, restricting the algorit
 
 **Ice_Rock:** Similar to the implementation of Air-Ice, it also uses the smoothness condition to restrict the next choosing row.
 
-![Image for Human Feedback 30](https://github.iu.edu/cs-b551-fa2021/hvalivet-jagchau-sjella-a3/blob/3d07ec04b4538e40e6447d4ee3e040f3b9b5eaf8/part2/Images/FB_ice_rock_output_30.png)
-![Image for Human Feedback 23](https://github.iu.edu/cs-b551-fa2021/hvalivet-jagchau-sjella-a3/blob/0e30a8dff8599214df92c1960d7d4b341742de7d/part2/Images/ice_rock_output_23.png)
-![Image for Human Feedback 31](https://github.iu.edu/cs-b551-fa2021/hvalivet-jagchau-sjella-a3/blob/4da06489ac1361501c464fa86d074a01d8aaa18e/part2/Images/ice_rock_output_31.png)
+![Image for Human Feedback 30](https://github.com/Harshav0423/Horizon-Detection/blob/master/Images/FB_ice_rock_output_30.png)
+![Image for Human Feedback 23](https://github.com/Harshav0423/Horizon-Detection/blob/master/Images/ice_rock_output_23.png)
+![Image for Human Feedback 31](https://github.com/Harshav0423/Horizon-Detection/blob/master/Images/ice_rock_output_31.png)
